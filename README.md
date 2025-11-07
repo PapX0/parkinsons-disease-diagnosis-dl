@@ -1,2 +1,21 @@
 # parkinsons-disease-diagnosis-dl
-The project aims to diagnose Parkinson’s disease using deep learning techniques applied to datasets such as Speech recordings, Handwriting samples, MRI images, and Gait analysis. The goal is to develop models that detect key patterns in each dataset, leading to a more comprehensive and reliable diagnostic method.
+Parkinson's Disease (PD) is a progressive neurodegenerative disorder that exhibits a range of motor and
+non-motor symptoms, complicating its diagnosis. Traditional diagnostic techniques rely heavily on
+clinical evaluations, which can be subjective and vary between observers. To address these challenges,
+we introduce a comprehensive, automated diagnostic system for Parkinson's Disease using a multimodal
+deep learning framework that integrates diverse data types: Magnetic Resonance Imaging (MRI), gait
+patterns, audio recordings, and handwriting samples. Each data modality is specifically chosen to capture
+different facets of PD. MRI scans provide insights into the structural integrity of the brain, gait analysis
+reflects motor capabilities, audio recordings assess vocal attributes, and handwriting analysis evaluates
+fine motor skills. Utilizing pretrained deep learning architectures such as ResNet for MRI data, VGG for
+gait video analysis, and tailored convolutional neural networks (CNNs) for audio and handwriting data,
+our approach involves fine-tuning these models on respective datasets. The methodology includes
+individual training of each modality-specific model to extract relevant features, which are subsequently
+integrated using an advanced fusion technique designed to consolidate and leverage multimodal data for
+enhanced diagnostic accuracy. This integration aims to construct a holistic view of the patient’s condition,
+facilitating a more objective and consistent diagnosis compared to traditional methods.
+
+Our project endeavours to develop a scalable, multimodal diagnostic tool with potential applications
+beyond Parkinson's Disease, assisting clinicians in early detection and enabling tailored treatment
+strategies. This approach underscores the transformative potential of deep learning in medical
+diagnostics, paving the way for future advancements in healthcare technology.
